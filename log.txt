@@ -1,0 +1,131 @@
+logged: gersi against EvilWizard
+
+logged: Round 1
+logged: gersi plays his card: WaterSpell
+logged: EvilWizard plays his card: FireSpell
+logged: Both cards are spell cards.
+logged: gersi has won this round.
+
+logged: Round 2
+logged: gersi plays his card: Water
+logged: EvilWizard plays his card: Fire
+logged: Both cards are monster cards.
+logged: EvilWizard has won this round.
+
+logged: Round 3
+logged: gersi plays his card: FireSpell
+logged: EvilWizard plays his card: RegularSpell
+logged: Both cards are spell cards.
+logged: EvilWizard has won this round.
+
+logged: Round 4
+logged: gersi plays his card: RegularSpell
+logged: EvilWizard plays his card: Fire
+logged: Cards types are different.
+logged: RegularSpell type is NORMAL
+logged: Fire type is NORMAL
+logged: EvilWizard has won this round.
+
+logged: Round 5
+logged: gersi plays his card: WaterSpell
+logged: EvilWizard plays his card: WaterSpell
+logged: Both cards are spell cards.
+logged: gersi has won this round.
+
+logged: Round 6
+logged: gersi plays his card: WaterSpell
+logged: EvilWizard plays his card: RegularSpell
+logged: Both cards are spell cards.
+logged: gersi has won this round.
+
+logged: Round 7
+logged: gersi plays his card: WaterSpell
+logged: EvilWizard plays his card: Fire
+logged: Cards types are different.
+logged: WaterSpell type is WATER
+logged: Fire type is NORMAL
+logged: gersi has won this round.
+
+logged: Round 8
+logged: gersi against EvilWizard
+
+logged: Round 1
+logged: gersi plays his card: RegularSpell
+logged: EvilWizard plays his card: Fire
+logged: Cards types are different.
+logged: RegularSpell type is NORMAL
+logged: Fire type is NORMAL
+logged: EvilWizard has won this round.
+
+logged: Round 2
+logged: gersi plays his card: WaterSpell
+logged: EvilWizard plays his card: FireSpell
+logged: Both cards are spell cards.
+logged: gersi has won this round.
+
+logged: Round 3
+logged: gersi plays his card: Water
+logged: EvilWizard plays his card: RegularSpell
+logged: Cards types are different.
+logged: Water type is NORMAL
+logged: RegularSpell type is NORMAL
+logged: This round is a draw
+
+logged: Round 4
+logged: gersi plays his card: Water
+logged: EvilWizard plays his card: WaterSpell
+logged: Cards types are different.
+logged: Water type is NORMAL
+logged: WaterSpell type is WATER
+logged: EvilWizard has won this round.
+
+logged: Round 5
+logged: gersi plays his card: FireSpell
+logged: EvilWizard plays his card: WaterSpell
+logged: Both cards are spell cards.
+logged: EvilWizard has won this round.
+
+logged: Round 6
+logged: gersi plays his card: WaterSpell
+logged: EvilWizard plays his card: WaterSpell
+logged: Both cards are spell cards.
+logged: EvilWizard has won this round.
+
+logged: miri against EvilWizard
+
+logged: Round 1
+logged: miri plays his card: Fire
+logged: EvilWizard plays his card: Fire
+logged: Both cards are monster cards.
+logged: This round is a draw
+
+logged: Round 2
+logged: miri plays his card: Regular
+logged: EvilWizard plays his card: Fire
+logged: Both cards are monster cards.
+logged: EvilWizard has won this round.
+
+logged: Round 3
+logged: miri plays his card: WaterSpell
+logged: EvilWizard plays his card: Fire
+logged: Cards types are different.
+logged: WaterSpell type is WATER
+logged: Fire type is NORMAL
+logged: EvilWizard has won this round.
+
+logged: Round 4
+logged: miri plays his card: Fire
+logged: EvilWizard plays his card: WaterSpell
+logged: Cards types are different.
+logged: Fire type is NORMAL
+logged: WaterSpell type is WATER
+logged: EvilWizard has won this round.
+
+logged: Round 5
+logged: miri plays his card: Water
+logged: EvilWizard plays his card: FireSpell
+logged: Cards types are different.
+logged: Water type is NORMAL
+logged: FireSpell type is FIRE
+logged: EvilWizard has won this round.
+

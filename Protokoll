@@ -1,0 +1,38 @@
+This project was a real challenge for me. The main part was the whole idea of the game. I have tried to implement the most needed functionalities that can make the game function properly. The part of the server was new to me and could not understand really well how the whole thing worked in order to read the requests and perform the needed actions according to the user input.
+Therefore what the respAPI server should have done, did I replace with a sort of game controler, which is the server class that performs the actions.
+The user class holds the necessary attributes to represent a user that can register and login. In case of a register the required data is obtained and the new user is inserted into the user table in the database.
+In case of the login, the username and password are checked against the users database and if the username exists, then the password is checked and confirmed. In case of a successful login the user is considered logged and proceeds to the main menu.
+The main menu offers the user to first buy a package with the coins he has from the creation of the user class.
+A package consists of 5 cards that are randomly created and assigned. Then the package with the cards is stored in the database, just to interact with the cards table and store the cards in there related to the user id to identify which users the cards belong to. Then the data is removed from the package table.
+A card is an object that has an id, name and damage. By the randomness is determined the value of each specific attribute.
+A card can be a spell card or a monster card. Each of those can be a fire, water or regular.
+The cards are selected to be assigned to the deck of the user. The deck is a collection of 4 cards that the user will hold until he is ready to battle against another user. The deck is showed with the showDeck and showDeckOther functions in order to let the user know what his cards that he is holding are(give more data about them).
+The stack is the full collection of cards a user has and is called with showStack. This is of particular importance for choosing cards to trade with another user.
+During the battle the user deck is filled with cards from his stack, where as the opponents deck is filled with cards from his stack. When those two are ready, they perform a battle of cards by each round, having compared the element type and the damages, certain cards are taken from the opponent and the one with the most cards taken of the opponent will be have won the game.
+After the battle ends the stats and score are updated and can be seen by calling the showStats or showScoreBoard.
+After this the user can procceed again with another battle with another user.
+Or the user can trade cards with another user by picking his card id and the other users card id.
+Furthermore, with free will a user can donate 5 coins to another user.
+After that the user can logout and exit the program if he wishes.
+
+
+
+
+----------------------------------------------------
+		Time Spent
+----------------------------------------------------
+For this project i have spent around 85 hours due to the lack of experience with programming of games and java knowledge and the problems that occurred with the restful server. Therefore I needed to delete the whole server and restart doing the work with the replacement of the server with the game controller.
+
+		
+		
+----------------------------------------------------
+		Unit Test Design
+----------------------------------------------------
+
+I have considered to make 10 unit tests for functions in PostgreSQL class, Battle class, Deck class and User class. The unit tests check the return value for each of those functions. Nearly all of them have a return type of boolean or integer depending on the success or failure of execution of the desired action.
+For battle the functions checked are readyToBattle, isOver, compareCards, and isTaken. These are important key functions that enable the smooth running and finish of the battle. Therefore it was necessary for the return type to be checked if it was the desired one in certain conditions.
+For postgreSQL registerUser,loginUser,logoutUser,decreaseCoins are tested. The first 3 are important for managing the user and storing the necessary data. The last one is important to limit the user for buying packages.
+Deck has the method checkDeck tested. It will return the check performed by the deck if it has any cards set to null so that deck is not ready.
+Finally the methos isLogged is tested for the User class to check is it returns false in case the user does not exist.
+
+
